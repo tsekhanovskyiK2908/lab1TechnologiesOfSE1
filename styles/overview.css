@@ -1,0 +1,30 @@
+/* START OF SECOND SLIDE */
+
+.overview-Slide-Color {
+    background-color: #eff1f0;
+}
+
+.slide-Block ul.overview-Items {
+    padding-inline-start: 20px;
+    padding-top: 10px;
+    padding-right: 35px;
+}
+
+.slide-Block ul.overview-Items li {
+    margin-bottom: 50px;
+}
+
+.slide-Secondary-Accent-Font {
+    font-weight: bold;
+}
+
+.slide-Main-Font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    word-spacing: 4px;
+    font-weight: 400;
+    color: var(--slide-font-color); 
+}
+
+/* END OF SECOND SLIDE */

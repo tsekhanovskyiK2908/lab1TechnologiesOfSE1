@@ -1,0 +1,136 @@
+/* INTRODUCTION */
+
+.introduction {
+    background-color: var(--header-color);
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+
+.introduction-Title {
+    text-align: center;
+}
+
+.intro-Text-First {
+    color: var(--commonheaderfont-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 11pt;
+}
+
+.intro-Text-Second {    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 42pt;
+    color: var(--commonheaderfont-color);
+}
+
+.general-Input {
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    padding: 15px 25px;
+    text-align: center;
+    box-sizing: border-box;
+    color: var(--footer-font-color);
+}
+
+.general-Button {
+    background-color: var(--accent-font-color);
+    color: var(--commonheaderfont-color);
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    border: 1px solid var(--footer-font-color);
+    padding: 15px 25px;
+}
+
+.button-Go-To-Main {
+    background-color: var(--inner-circle-color);
+    width: 100%;
+    font-size: 18pt;
+    height: 70px;
+    border: 1px solid var(--accent-font-color);
+    color: var(--footer-font-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*END OF INTRODUCTION */
+
+/* START OF FIRST SLIDE */
+.logo-Holder {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.presentation-Theme-Font {
+    font-size: 42pt;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flag-And-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-Font {
+    color: #0d4274;
+    font-size: 18pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.registered-Symbol-Font {
+    font-size: 12pt;
+    vertical-align: text-top;
+}
+
+.main-Slide-Wrapper {
+    position: relative;    
+}
+
+.theme-And-Traiangle-Wrapper {
+    position: absolute;
+    width: 100%;
+}
+
+.theme-Of-Presentation {
+    background-color: var(--header-color);
+    padding: 40px 60px;
+    margin-top: 40px;
+}
+
+.theme-Of-Presentation p {
+    margin: 0;
+}
+
+.under-Title-Triangle-Wrapper {
+    padding-left: 65px;
+}
+
+.under-Title-Triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 25px solid var(--header-color);
+}
+
+.country-And-Circles {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 50px 0px 0px 60px;
+}
+
+.country-Name {
+    display: flex;
+    align-items: center;
+}

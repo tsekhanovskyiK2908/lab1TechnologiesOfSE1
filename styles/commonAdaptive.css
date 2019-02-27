@@ -1,0 +1,17 @@
+@media screen and (max-width:1500px) {
+    
+    body {
+        max-width: 95vw;
+    }
+
+    .chapters-And-Circles {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .general-Block {
+        max-height: none;
+    }
+
+
+}

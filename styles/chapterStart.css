@@ -1,0 +1,30 @@
+.start-Of-Chapter-Slide {
+    background-color: var(--header-color);
+    display: flex;
+    margin-top: 55px;
+    padding-left: 45px;
+    justify-content: space-between;
+}
+
+.chapter-Start-Number-Font {
+    color: #fff;
+    font-size: 34pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chapter-Theme-Font {
+    color: var(--chapterTheme-font);
+    font-size: 50pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chapter-Number-And-Theme {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 35px;
+}
+
+.chapter-Number-And-Theme-Wrapper {
+    padding-bottom: 30px;
+}
